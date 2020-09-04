@@ -2,6 +2,9 @@ package lc
 
 import "sort"
 
+// Time(Nlogn)
+// Benchmark: 4ms 4.3mb | 100% 53%
+
 func numSmallerByFrequency(queries []string, words []string) []int {
 	// returns the frequency of the smallest character
 	var smallestWordFreq = func(s string) int {
