@@ -7,6 +7,7 @@ import (
 )
 
 // Time: O(n)
+// Benchmark: 100ms 7.5mb | 98%
 
 func walkB(node *types.TreeNode, stack *[]int) {
 	if node == nil {

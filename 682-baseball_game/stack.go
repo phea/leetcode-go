@@ -2,6 +2,9 @@ package lc
 
 import "strconv"
 
+// Time: O(n)
+// 0ms 2.6mb | 100%
+
 func calPoints(ops []string) int {
 	stack := []int{}
 	sum, points := 0, 0
