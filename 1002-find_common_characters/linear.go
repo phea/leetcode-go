@@ -1,6 +1,6 @@
 package lc
 
-// Time: O(n^2)
+// Time: O(n)
 // Benchmark: 0ms 2.9mb | 100%
 
 func commonChars(A []string) []string {
