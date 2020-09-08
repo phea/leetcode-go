@@ -9,7 +9,6 @@ func minDeletionSize(A []string) int {
 	}
 
 	var count int
-	// sort.Strings(A)
 	for i := range A[0] {
 		for j := 0; j <= len(A)-1; j++ {
 			if A[j][i] >= A[j+1][i] 
