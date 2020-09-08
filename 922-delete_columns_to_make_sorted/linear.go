@@ -19,3 +19,4 @@ func minDeletionSize(A []string) int {
 	}
 
 	return count
+}
