@@ -4,11 +4,8 @@ package lc
 // Benchmark: 0ms 2mb | 100%
 
 func checkOnesSegment(s string) bool {
-	var found bool
-	for i := 1; i < len(s); i++ {
-		if s[i] == '0' && !found {
-			found = true
-		} else if s[i] == '1' && found {
+	for i := 1; i < len(s)-1; i++ {
+		if s[i] == '0' && s[i+1] == '1' {
 			return false
 		}
 	}
